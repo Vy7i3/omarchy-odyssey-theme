@@ -1,0 +1,160 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "data-raw",
+    "source": "\u001b[38;2;233;194;106m██████████████████████████████████████████████████████\u001b[0m\n\u001b[38;2;231;191;102m██████████████████████████████████████████████████████\u001b[0m\n\u001b[38;2;230;188;98m████                     ████                     ████\u001b[0m\n\u001b[38;2;228;184;93m████                     ████                     ████\u001b[0m\n\u001b[38;2;226;181;89m████    █████████████████████         ████████    ████\u001b[0m\n\u001b[38;2;225;178;85m████    █████████████████████         ████████    ████\u001b[0m\n\u001b[38;2;223;175;81m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;221;172;76m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;220;168;72m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;218;165;68m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;216;162;64m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;215;159;59m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;213;156;55m████████████                              ████    ████\u001b[0m\n\u001b[38;2;210;153;53m████████████                              ████    ████\u001b[0m\n\u001b[38;2;207;150;52m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;203;147;51m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;200;144;50m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;196;141;49m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;193;139;49m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;189;136;48m████    ████                              ████    ████\u001b[0m\n\u001b[38;2;186;133;47m████    ██████████████████████████████████████    ████\u001b[0m\n\u001b[38;2;182;130;46m████    ██████████████████████████████████████    ████\u001b[0m\n\u001b[38;2;179;127;45m████                     ████                     ████\u001b[0m\n\u001b[38;2;175;125;45m████                     ████                     ████\u001b[0m\n\u001b[38;2;172;122;44m█████████████████████████████     ████████████████████\u001b[0m\n\u001b[38;2;168;119;43m█████████████████████████████     ████████████████████\u001b[0m\n\u001b[38;2;74;88;110m   ⟡   w i n e - d a r k   s e a   ⟡\u001b[0m",
+    "padding": {
+      "top": 2,
+      "right": 6,
+      "left": 2
+    }
+  },
+  "display": {
+    "disableLinewrap": true
+  },
+  "modules": [
+    "break",
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+    },
+    {
+      "type": "host",
+      "key": " PC",
+      "keyColor": "#d49a35"
+    },
+    {
+      "type": "cpu",
+      "key": "│ ├",
+      "keyColor": "#d49a35",
+      "showPeCoreCount": true
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├",
+      "keyColor": "#d49a35",
+      "detectionMethod": "pci",
+      "format": "{name}"
+    },
+    {
+      "type": "display",
+      "key": "│ ├󱄄",
+      "keyColor": "#d49a35"
+    },
+    {
+      "type": "disk",
+      "key": "│ ├󰋊",
+      "keyColor": "#d49a35"
+    },
+    {
+      "type": "memory",
+      "key": "│ ├",
+      "keyColor": "#d49a35"
+    },
+    {
+      "type": "swap",
+      "key": "└ └󰓡",
+      "keyColor": "#d49a35"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+    },
+    {
+      "type": "command",
+      "key": " OS",
+      "keyColor": "#ddae5d",
+      "text": "version=$(omarchy-version) && echo \"Omarchy $version\""
+    },
+    {
+      "type": "command",
+      "key": "│ ├󰘬",
+      "keyColor": "#ddae5d",
+      "text": "omarchy-version-branch"
+    },
+    {
+      "type": "command",
+      "key": "│ ├󰔫",
+      "keyColor": "#ddae5d",
+      "text": "channel=$(omarchy-version-channel); echo \"$channel\""
+    },
+    {
+      "type": "kernel",
+      "key": "│ ├",
+      "keyColor": "#ddae5d"
+    },
+    {
+      "type": "wm",
+      "key": "│ ├",
+      "keyColor": "#ddae5d"
+    },
+    {
+      "type": "de",
+      "key": " DE",
+      "keyColor": "#ddae5d"
+    },
+    {
+      "type": "terminal",
+      "key": "│ ├",
+      "keyColor": "#ddae5d"
+    },
+    {
+      "type": "packages",
+      "key": "│ ├󰏖",
+      "keyColor": "#ddae5d"
+    },
+    {
+      "type": "wmtheme",
+      "key": "│ ├󰉼",
+      "keyColor": "#ddae5d"
+    },
+    {
+      "type": "command",
+      "key": "│ ├󰸌",
+      "keyColor": "#ddae5d",
+      "text": "theme=$(omarchy-theme-current); echo -e \"$theme \\e[38m●\\e[37m●\\e[36m●\\e[35m●\\e[34m●\\e[33m●\\e[32m●\\e[31m●\""
+    },
+    {
+      "type": "terminalfont",
+      "key": "└ └",
+      "keyColor": "#ddae5d"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌────────────────Age / Uptime / Update───────────────┐"
+    },
+    {
+      "type": "command",
+      "key": "󱦟 OS Age",
+      "keyColor": "#c07f35",
+      "text": "days=$(( ($(date +%s) - $(stat -c %W /var/log)) / 86400 )); omarchy-i18n --count \"$days\" about.days \"$days\""
+    },
+    {
+      "type": "command",
+      "key": "󱫐 Uptime",
+      "keyColor": "#c07f35",
+      "text": "up=$(cut -d. -f1 /proc/uptime); d=$((up / 86400)); h=$((up % 86400 / 3600)); m=$((up % 3600 / 60)); if [ \"$d\" -gt 0 ]; then omarchy-i18n agents.durationDaysHours \"$d\" \"$h\"; elif [ \"$h\" -gt 0 ]; then omarchy-i18n battery.durationHoursMinutes \"$h\" \"$m\"; else omarchy-i18n battery.durationMinutes \"$m\"; fi"
+    },
+    {
+      "type": "command",
+      "key": " Update",
+      "keyColor": "#c07f35",
+      "text": "updated=$(omarchy-version-pkgs); echo \"$updated\""
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    }
+  ]
+}

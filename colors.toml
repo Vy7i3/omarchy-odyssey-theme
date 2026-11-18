@@ -1,0 +1,66 @@
+# ══════════════════════════════════════════════════════════════════════
+#  ODYSSEY — an Omarchy theme after Homer
+#  The wine-dark Aegean, weathered bronze armor, sun-bleached marble,
+#  and the hearth firelight of Ithaca.
+#
+#  Source of truth for every generated config (Hyprland, terminals,
+#  btop, chromium, Neovim via aether.nvim, the Omarchy shell ...).
+#  Apply with:  omarchy theme set odyssey
+# ══════════════════════════════════════════════════════════════════════
+
+mode = "dark"
+
+# ── Anchors ─────────────────────────────────────────────────────────
+accent = "#d49a35"                # Burnished Minoan bronze / gold
+selection = "#26334a"             # Deep wave highlight
+muted = "#4a586e"                 # Weathered stone (ANSI color8)
+
+# ── Backgrounds — the wine-dark sea and the abyss ───────────────────
+darker_background = "#090d14"     # Deep trench midnight
+dark_background = "#0d131d"       # Abyssal navy
+background = "#111824"            # Primary Aegean slate-navy
+lighter_background = "#1b2536"    # Elevated panels / selection surfaces
+
+# ── Foregrounds — marble and parchment ──────────────────────────────
+dark_foreground = "#5c6b82"       # Muted slate / comments
+foreground = "#e6dec8"            # Warm sun-bleached parchment — 13.3:1 on background (WCAG AAA)
+light_foreground = "#f0ead8"      # Bright limestone
+bright_foreground = "#faf6eb"     # Polished Parian marble / cursor — 16.4:1 on background
+
+# ── Hyprland borders — subtle bronze-to-seafoam ─────────────────────
+# Consumed by the stock hyprland template via {{ hypr_gradient }}.
+hyprland_active_border = "rgba(d49a35ee) rgba(58999eee) 45deg"
+hyprland_inactive_border = "rgba(4a586e66)"
+
+# ── ANSI semantics ──────────────────────────────────────────────────
+# omarchy-theme-color resolves the legacy colorN aliases; the semantic
+# names below are canonical. Both forms are spelled out so the ramp is
+# explicit for any consumer.
+color0 = "#111824"                # black       — Aegean slate
+color1 = "#c94a4a"                # red         — wine-dark crimson / Scylla
+color2 = "#5c8d76"                # green       — Ithacan olive leaf
+color3 = "#d49a35"                # yellow      — sunlit bronze / Golden Fleece
+color4 = "#4b7ba6"                # blue        — Aegean open water
+color5 = "#8c5e7a"                # magenta     — Tyrian purple / Circe twilight
+color6 = "#58999e"                # cyan        — seafoam and Siren shoals
+color7 = "#e6dec8"                # white       — parchment
+color8 = "#4a586e"                # bright black — weathered stone
+
+red = "#c94a4a"                   # = color1
+green = "#5c8d76"                 # = color2
+yellow = "#d49a35"                # = color3
+blue = "#4b7ba6"                  # = color4
+magenta = "#8c5e7a"               # = color5
+cyan = "#58999e"                  # = color6
+
+# Bright variants (20 percent toward white, matching engine defaults)
+bright_red = "#d46e6e"            # Scylla surfacing
+bright_green = "#7da491"          # Sunlit olive branch
+bright_yellow = "#ddae5d"         # The Fleece at noon
+bright_blue = "#6f95b8"           # Open water under sail
+bright_magenta = "#a37e95"        # Circe at dusk
+bright_cyan = "#79adb1"           # Seafoam crest
+
+# ── Supplementary hues consumed by stock templates ──────────────────
+orange = "#c07f35"                # Oxidized bronze — deeper than yellow
+brown = "#8f6b46"                 # Weathered oxhide / sailcloth
